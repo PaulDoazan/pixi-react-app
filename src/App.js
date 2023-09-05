@@ -2,7 +2,7 @@ import { useState } from 'react';
 import SubApp from './components/SubApp';
 
 function App() {
-  const [nbScreen, setNbScreen] = useState(4)
+  const [nbScreen, setNbScreen] = useState(1)
 
   const screens = []
 

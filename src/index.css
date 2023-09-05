@@ -8,16 +8,36 @@ code {
     monospace;
 }
 
+.bg-color-1 { 
+	background: #e0ffcd; 
+}
+	
+.bg-color-2 { 
+	background: #fdffcd; 
+}
+
+.bg-color-3 { 
+	background: #ffebbb; 
+}
+
+.bg-color-4 { 
+	background: #ffcab0; 
+}
+
 .nbScreen-select {
   position: absolute;
   top: 50vh;
   left: 50vw;
+  border: 5px solid black;
+  border-radius: 50%;
+  padding: 1em 0.5em;
+  transform: translate(-50%, -50%);
 }
 
 .screens-container-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   width: 100vw;
   height: 100vh;
 }
@@ -26,7 +46,6 @@ code {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 10px;
   width: 100vw;
   height: 100vh;
 }
@@ -35,7 +54,6 @@ code {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 10px;
   width: 100vw;
   height: 100vh;
 }
@@ -45,8 +63,27 @@ code {
   justify-content: center;
   align-items: center;
   overflow: auto;
+  border: 5px solid black;
 }
 
 .sub-app-reverse {
   transform: rotate(180deg);
+}
+
+.games-menu {
+  display: flex;
+  margin: 1em;
+}
+
+.btn-game {
+  margin: 0.5em;
+  border: 1px solid black;
+  padding: 0.5em;
+  cursor: pointer;
+  user-select: none;
+}
+
+.game-selected {
+  background-color: black;
+  color: white;
 }
