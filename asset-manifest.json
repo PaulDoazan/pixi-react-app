@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pixi-react-app/static/css/main.3ba9dbe7.css",
-    "main.js": "/pixi-react-app/static/js/main.bb696fab.js",
+    "main.css": "/pixi-react-app/static/css/main.c651ff35.css",
+    "main.js": "/pixi-react-app/static/js/main.a515768c.js",
     "index.html": "/pixi-react-app/index.html",
-    "main.3ba9dbe7.css.map": "/pixi-react-app/static/css/main.3ba9dbe7.css.map",
-    "main.bb696fab.js.map": "/pixi-react-app/static/js/main.bb696fab.js.map"
+    "main.c651ff35.css.map": "/pixi-react-app/static/css/main.c651ff35.css.map",
+    "main.a515768c.js.map": "/pixi-react-app/static/js/main.a515768c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ba9dbe7.css",
-    "static/js/main.bb696fab.js"
+    "static/css/main.c651ff35.css",
+    "static/js/main.a515768c.js"
   ]
 }
